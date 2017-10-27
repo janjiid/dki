@@ -39,11 +39,11 @@
 
     // Dates
     var today = moment();
-    var inauguration = moment('2017-01-20');
+    var inauguration = moment('2017-10-16');
     $('#inauguration-days').html(inauguration.diff(today, 'days') > 0 ? inauguration.diff(today, 'days') : 'NA');
-    
-    $('#inauguration-time-container').hide(); //TEMP FIX 
-    
+
+    $('#inauguration-time-container').hide(); //TEMP FIX
+
     $('#days-in-office').html(today.diff(inauguration, 'days') > 0 ? today.diff(inauguration, 'days') : 0);
 
     // List.js object that we can filter upon
