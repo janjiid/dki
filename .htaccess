@@ -30,8 +30,8 @@
 </IfModule>
 
 RewriteEngine On
-RewriteCond %{HTTP_HOST} !^trumptracker.github.io/$ [NC]
-RewriteRule ^(.*)$ https://trumptracker.github.io/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} !^dki.janji.id/$ [NC]
+RewriteRule ^(.*)$ https://dki.janji.id/$1 [L,R=301]
 
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
