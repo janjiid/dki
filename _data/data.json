@@ -13,7 +13,7 @@
     "Education": "graduation-cap"
   },
   "statuses": {
-    "Belum Mulai": {
+    "Not started": {
       "color": "info",
       "icon": "hourglass-start"
     },
